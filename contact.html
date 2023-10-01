@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Music themed website focusing on music news and concerts">
+    <title>Music World</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/record.png" type="image/png">
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>Music World</h1>
+        <nav>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artists.html">Artists</a></li>
+                <li><a href="concerts.html">Concerts</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="news-ticker">
+            <div class="news-ticker-content">
+                <span>Breaking: "Heartbeat Symphony" hits #1 on the charts!</span>
+                <img src="./images/record.png" alt="Record Splitter" class="splitter">
+                <span>Exclusive: Northbound Trio to release new album next month.</span>
+                <img src="./images/record.png" alt="Record Splitter" class="splitter">
+                <span>Update: Aaron Blakemore announces world tour dates.</span>
+                <img src="./images/record.png" alt="Record Splitter" class="splitter">
+                <span>Newsflash: Luna Harbinger's "Lost in Echo" goes platinum in just two weeks!</span>
+                <img src="./images/record.png" alt="Record Splitter" class="splitter">
+                <span>Insider: The Nebulae in talks for a surprise collaboration with Metrobeat.</span>
+                <img src="./images/record.png" alt="Record Splitter" class="splitter">
+                <span>Announcement: Fiona Vayne's "Rising Phoenix" nominated for three Grammy Awards!</span>
+                <img src="./images/record.png" alt="Record Splitter" class="splitter">
+                <span>Hot Topic: Aviator's new single "Sapphire Skies" gets over 5 million streams in 24 hours!</span>
+                <img src="./images/record.png" alt="Record Splitter" class="splitter">
+                <span>Just In: Prairie Winds to headline next year's Coachella Festival.</span>
+                <img src="./images/record.png" alt="Record Splitter" class="splitter">
+                <span>Alert: Desert Rose cancels European leg of tour due to unforeseen circumstances.</span>
+                <img src="./images/record.png" alt="Record Splitter" class="splitter">
+                <span>Music Gossip: Elise Tremaine spotted in studio with legendary producer Max Martin. New hit incoming?</span>
+                <img src="./images/record.png" alt="Record Splitter" class="splitter">
+                <span>Update: Tickets for Northbound Trio's "Whispering Nights" LA show sold out in minutes!</span>
+                <img src="./images/record.png" alt="Record Splitter" class="splitter">
+                <span>Big News: Electronic music duo SynthWave set to drop surprise EP at midnight.</span>
+ 
+            </div>
+        </div>
+    </header>
+
+
+     <main class="container">
+
+        <section class="left-box">
+            <h3>Top 10 Songs</h3>
+                <ul class="song-list">
+                    <li><img src="./images/record.png" alt="Record Splitter" class="splitter-song-box"> Heartbeat Symphony | Elise Tremaine</li>
+                    <li><img src="./images/record.png" alt="Record Splitter" class="splitter-song-box"> Midnight Whispers | Northbound Trio</li>
+                    <li><img src="./images/record.png" alt="Record Splitter" class="splitter-song-box"> Sunset Dreams | Aaron Blakemore</li>
+                    <li><img src="./images/record.png" alt="Record Splitter" class="splitter-song-box"> Lost in Echo | Luna Harbinger</li>
+                    <li><img src="./images/record.png" alt="Record Splitter" class="splitter-song-box"> Rhythmic Starlight | The Nebulae</li>
+                    <li><img src="./images/record.png" alt="Record Splitter" class="splitter-song-box"> Urban Shadows | Metrobeat</li>
+                    <li><img src="./images/record.png" alt="Record Splitter" class="splitter-song-box"> Rising Phoenix | Fiona Vayne</li>
+                    <li><img src="./images/record.png" alt="Record Splitter" class="splitter-song-box"> Sapphire Skies | Aviator</li>
+                    <li><img src="./images/record.png" alt="Record Splitter" class="splitter-song-box"> Golden Meadows | Prairie Winds</li>
+                    <li><img src="./images/record.png" alt="Record Splitter" class="splitter-song-box"> Crystal Mirage | Desert Rose</li>
+                </ul>
+        </section>
+        
+        <section class="center-box">
+            <h2>Contact Us</h2>
+            <p>We're always here to help you with any questions or feedback you might have. Don't hesitate to get in touch with us.</p>
+
+            <div class="center-box-lower-non-main">
+                <form action="/submit_contact" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="center-box-lower-non-main">
+                <h3>Contact Information</h3>
+                <p><strong>Email:</strong> <a href="mailto:info@musicworld.com">info@musicworld.com</a></p>
+                <p><strong>Address:</strong> MusicWorld Headquarters, 123 Rathfarnahm, Dublin, D14W744</p>
+                <p><strong>Phone:</strong> +1 (234) 567-890</p>
+                <p>If you're nearby, feel free to visit our headquarters. We always appreciate direct feedback and the chance to meet our supporters in person!</p>
+                
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m12!1m3!1d264.6438791354499!2d-6.285973622534528!3d53.344711311198566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m4!3e6!4m0!4m1!2sFlat%20309%20B%20Block%2C%20Oliver%20Bond%20House%2C%20Usher%20St%2C%20Usher&#39;s%20Quay%2C%20Dublin%208!5e0!3m2!1sen!2sie!4v1696186683601!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+
+        
+        <section class="right-box">
+            <h3>Upcoming Concerts</h3>
+            <ul>
+                <li>Elise Tremaine - "Heartbeat Tour"<br>Oct 15, 2023 | Madison Square Garden, NY</li>
+                <li>Northbound Trio - "Whispering Nights"<br>Nov 7, 2023 | The Roxy, Los Angeles, CA</li>
+                <li>Luna Harbinger - "Echo Tour"<br>Dec 1, 2023 | Red Rocks Amphitheatre, Morrison, CO</li>
+                <li>The Nebulae - "Starlight Serenades"<br>Dec 20, 2023 | The Fillmore, San Francisco, CA</li>
+                <li>Metrobeat - "Shadows in the Alley"<br>Jan 15, 2024 | House of Blues, Chicago, IL</li>
+            </ul>
+        </section>
+    </main>
+
+
+    <footer>
+        
+        <p> For inquiries: <a href="mailto:info@musicworld.com">info@musicworld.com</a></p>
+
+        
+        <p>&nbsp;MusicWorld Headquarters|
+        123 Rathfarnahm|
+        Dublin, D14W744</p>
+
+        
+        <p>&nbsp;Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        
+        <p> &copy; 2023 MusicWorld. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
