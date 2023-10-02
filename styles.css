@@ -91,6 +91,28 @@ nav a:hover {
     text-decoration-style: double;
 }
 
+@media (max-width: 599px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        border: none;  
+    }
+
+    
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        border: none;  
+        margin-bottom: 10px; 
+    }
+    
+    nav ul li a {
+        border: none;
+        
+    }
+}
+
 
 
 main {
